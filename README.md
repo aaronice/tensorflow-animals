@@ -33,8 +33,17 @@ $ python tensorflow/examples/image_retraining/retrain.py \
 
 ## Test the Labelling
 Put test images in `/tf_files/test/` folder, then in docker command line, use the follow command:
+
 ```
 $ python /tf_files/label_image.py /tf_files/test/basque-shepherd-dog.jpg
 ```
 
-("basque-shepherd-dog.jpg" is the file name of image)
+>"basque-shepherd-dog.jpg" is the file name of image
+
+**Test Image**
+
+![basque-shepherd-dog.jpg](tf_files/test/basque-shepherd-dog.jpg)
+
+**Screenshot of Result**
+
+![Shepherd Dog Classification Result](tf_files/screenshot/screenshot_result_dog.jpg)
