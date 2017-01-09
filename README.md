@@ -1,3 +1,8 @@
+# Animals Image Classifier
+
+The repository is inspired by YouTube video [Build a TensorFlow Image Classifier in 5 Min](https://www.youtube.com/watch?v=QfNvhPx5Px8) with [CodeLab](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html) instructions.
+
+Currently supports 4 type of animals: cat, dog, monkey, squirrel.
 
 
 ## Run Docker container image (and link TensorFlow docker image to dataset folder)
@@ -47,3 +52,9 @@ $ python /tf_files/label_image.py /tf_files/test/basque-shepherd-dog.jpg
 **Screenshot of Result**
 
 ![Shepherd Dog Classification Result](tf_files/screenshot/screenshot_result_dog.jpg)
+
+
+## Reference
+
+- [Google CodeLab: TensorFlow For Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html)
+- [Google CodeLab: TensorFlow and deep learning, without a PhD](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/index.html)
