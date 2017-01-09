@@ -61,7 +61,7 @@ $ python /tf_files/label_image.py /tf_files/test/basque-shepherd-dog.jpg
 
 **Test Image**
 
-![cat-and-dog.jpg](tf_files/test/cat-and-dog.jpg)
+![cat-and-dog.jpg](tf_files/test/cat_and_dog.jpg)
 
 **Screenshot of Result**
 
